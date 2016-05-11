@@ -57,8 +57,7 @@ namespace CC_3
                     else
                     {
                         Console.WriteLine("Номер не вiдповiдає кiлькостi символiв");
-                        Console.ReadLine();
-                        Environment.Exit(-1);
+                        return s;
                     }
                     break;
                 case '3':
@@ -72,9 +71,8 @@ namespace CC_3
                             }
                             else
                             {
-                                Console.WriteLine("Номер не вiдповiдає кiлькостi символiв");
-                                Console.ReadLine();
-                                Environment.Exit(-1);
+                                Console.WriteLine("Номер не вiдповiдає кiлькостi символiв");                                
+                                return s;
                             }
                             break;
                         case '7':
@@ -86,8 +84,7 @@ namespace CC_3
                             else
                             {
                                 Console.WriteLine("Номер не вiдповiдає кiлькостi символiв");
-                                Console.ReadLine();
-                                Environment.Exit(-1);
+                                return s;
                             }
                             break;
                         case '5':                            
@@ -99,8 +96,7 @@ namespace CC_3
                             else
                             {
                                 Console.WriteLine("Номер не вiдповiдає кiлькостi символiв");
-                                Console.ReadLine();
-                                Environment.Exit(-1);
+                                return s;
                             }
                             break;
                         default:
@@ -121,8 +117,7 @@ namespace CC_3
                             else
                             {
                                 Console.WriteLine("Номер не вiдповiдає кiлькостi символiв");
-                                Console.ReadLine();
-                                Environment.Exit(-1);
+                                return s;
                             }
                             break;
                         case '2':
@@ -134,8 +129,7 @@ namespace CC_3
                             else
                             {
                                 Console.WriteLine("Номер не вiдповiдає кiлькостi символiв");
-                                Console.ReadLine();
-                                Environment.Exit(-1);
+                                return s;
                             }
                             break;
                         case '3':
@@ -147,8 +141,7 @@ namespace CC_3
                             else
                             {
                                 Console.WriteLine("Номер не вiдповiдає кiлькостi символiв");
-                                Console.ReadLine();
-                                Environment.Exit(-1);
+                                return s;
                             }
                             break;
                         case '4':
@@ -160,8 +153,7 @@ namespace CC_3
                             else
                             {
                                 Console.WriteLine("Номер не вiдповiдає кiлькостi символiв");
-                                Console.ReadLine();
-                                Environment.Exit(-1);
+                                return s;
                             }
                             break;
                         case '5':
@@ -173,8 +165,7 @@ namespace CC_3
                             else
                             {
                                 Console.WriteLine("Номер не вiдповiдає кiлькостi символiв");
-                                Console.ReadLine();
-                                Environment.Exit(-1);
+                                return s;
                             }
                             break;
                         // Вендор Maestro
@@ -187,8 +178,7 @@ namespace CC_3
                             else
                             {
                                 Console.WriteLine("Номер не вiдповiдає кiлькостi символiв");
-                                Console.ReadLine();
-                                Environment.Exit(-1);
+                                return s;
                             }
                             break;
                         case '6':
@@ -200,8 +190,7 @@ namespace CC_3
                             else
                             {
                                 Console.WriteLine("Номер не вiдповiдає кiлькостi символiв");
-                                Console.ReadLine();
-                                Environment.Exit(-1);
+                                return s;
                             }
                             break;
                         case '7':
@@ -213,8 +202,7 @@ namespace CC_3
                             else
                             {
                                 Console.WriteLine("Номер не вiдповiдає кiлькостi символiв");
-                                Console.ReadLine();
-                                Environment.Exit(-1);
+                                return s;
                             }
                             break;
                         case '8':
@@ -226,8 +214,7 @@ namespace CC_3
                             else
                             {
                                 Console.WriteLine("Номер не вiдповiдає кiлькостi символiв");
-                                Console.ReadLine();
-                                Environment.Exit(-1);
+                                return s;
                             }
                             break;
                         case '9':
@@ -239,8 +226,7 @@ namespace CC_3
                             else
                             {
                                 Console.WriteLine("Номер не вiдповiдає кiлькостi символiв");
-                                Console.ReadLine();
-                                Environment.Exit(-1);
+                                return s;
                             }
                             break;
                         default:
@@ -257,8 +243,7 @@ namespace CC_3
                     else
                     {
                         Console.WriteLine("Номер не вiдповiдає кiлькостi символiв");
-                        Console.ReadLine();
-                        Environment.Exit(-1);
+                        return s;
                     }
                     break;
                 default:
@@ -336,20 +321,17 @@ namespace CC_3
                     if ((s[1] == '4') && (NewCC[1] == '5'))
                     {
                         Console.WriteLine("Введений номер {0} остатнiй \"{1}\" валiдний iз дiапазону вендора", s, IsCreditCardNumberValid(s));
-                        Console.ReadLine();
-                        Environment.Exit(-1);
+                        return s;
                     }
                     else if ((s[1] == '7') && (NewCC[1] == '8'))
                     {
                         Console.WriteLine("Введений номер {0} остатнiй \"{1}\" валiдний iз дiапазону вендора", s, IsCreditCardNumberValid(s));
-                        Console.ReadLine();
-                        Environment.Exit(-1);
+                        return s;
                     }
                     else if ((s[2] == '8') && (NewCC[2] == '9'))
                     {
                         Console.WriteLine("Введений номер {0} остатнiй \"{1}\" валiдний iз дiапазону вендора", s, IsCreditCardNumberValid(s));
-                        Console.ReadLine();
-                        Environment.Exit(-1);
+                        return s;
                     }
                     else
                     {
@@ -361,8 +343,7 @@ namespace CC_3
                     if ((s[0] == '4') && (NewCC[0] == '5'))
                     {
                         Console.WriteLine("Введений номер {0} остатнiй \"{1}\" валiдний iз дiапазону вендора", s, IsCreditCardNumberValid(s));
-                        Console.ReadLine();
-                        Environment.Exit(-1);
+                        return s;
                     }
                     else
                     {
@@ -373,14 +354,12 @@ namespace CC_3
                     if ((s[1] == '0') && (NewCC[1] == '1'))
                     {
                         Console.WriteLine("Введений номер {0} остатнiй \"{1}\" валiдний iз дiапазону вендора", s, IsCreditCardNumberValid(s));
-                        Console.ReadLine();
-                        Environment.Exit(-1);
+                        return s;
                     }
                     else if ((s[1] == '5') && (NewCC[1] == '6'))
                     {
                         Console.WriteLine("Введений номер {0} остатнiй \"{1}\" валiдний iз дiапазону вендора", s, IsCreditCardNumberValid(s));
-                        Console.ReadLine();
-                        Environment.Exit(-1);
+                        return s;
                     }
                     else
                     {
@@ -391,13 +370,13 @@ namespace CC_3
                     if ((s[0] == '9') && (NewCC[0] == '0'))
                     {
                         Console.WriteLine("Введений номер {0} остатнiй \"{1}\" валiдний iз дiапазону вендора", s, IsCreditCardNumberValid(s));
-                        Console.ReadLine();
-                        Environment.Exit(-1);
+                        return s;
                     }
                     else
                     {
                         goto SearchNextNumber;
                     }
+
                     break;
             }
 

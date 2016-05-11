@@ -16,3 +16,9 @@ D:\C#\myCreditCart-master\CC_3\obj\Debug\CC_3.pdb
 D:\C#\myCreditCart-master\CC_3\bin\Debug\CC_3.exe
 D:\C#\myCreditCart-master\CC_3\bin\Debug\CC_3.pdb
 D:\C#\myCreditCart-master\CC_3\obj\Debug\CC_3.csprojResolveAssemblyReference.cache
+D:\tiamat\MY\myCreditCard-master\myCreditCard-master\CC_3\bin\Debug\CC_3.exe.config
+D:\tiamat\MY\myCreditCard-master\myCreditCard-master\CC_3\obj\Debug\CC_3.exe
+D:\tiamat\MY\myCreditCard-master\myCreditCard-master\CC_3\obj\Debug\CC_3.pdb
+D:\tiamat\MY\myCreditCard-master\myCreditCard-master\CC_3\bin\Debug\CC_3.exe
+D:\tiamat\MY\myCreditCard-master\myCreditCard-master\CC_3\bin\Debug\CC_3.pdb
+D:\tiamat\MY\myCreditCard-master\myCreditCard-master\CC_3\obj\Debug\CC_3.csprojResolveAssemblyReference.cache
