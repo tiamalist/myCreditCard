@@ -59,6 +59,7 @@ namespace CC_3
                     else
                     {
                         Console.WriteLine("Номер не вiдповiдає кiлькостi символiв");
+                        Console.WriteLine("Unknown");
                         return s;
                     }               
                     break;
@@ -74,6 +75,7 @@ namespace CC_3
                             else
                             {
                                 Console.WriteLine("Номер не вiдповiдає кiлькостi символiв");
+                                Console.WriteLine("Unknown");
                                 return s;                               
                             }
                             break;
@@ -86,6 +88,7 @@ namespace CC_3
                             else
                             {
                                 Console.WriteLine("Номер не вiдповiдає кiлькостi символiв");
+                                Console.WriteLine("Unknown");
                                 return s;                              
                             }
                             break;
@@ -98,6 +101,7 @@ namespace CC_3
                             else
                             {                                
                                 Console.WriteLine("Номер не вiдповiдає кiлькостi символiв");
+                                Console.WriteLine("Unknown");
                                 return s;                             
                             }
                             break;
@@ -119,6 +123,7 @@ namespace CC_3
                             else
                             {
                                 Console.WriteLine("Номер не вiдповiдає кiлькостi символiв");
+                                Console.WriteLine("Unknown");
                                 return s;                                
                             }
                             break;
@@ -131,6 +136,7 @@ namespace CC_3
                             else
                             {
                                 Console.WriteLine("Номер не вiдповiдає кiлькостi символiв");
+                                Console.WriteLine("Unknown");
                                 return s;
                             }
                             break;
@@ -143,6 +149,7 @@ namespace CC_3
                             else
                             {
                                 Console.WriteLine("Номер не вiдповiдає кiлькостi символiв");
+                                Console.WriteLine("Unknown");
                                 return s;
                             }
                             break;
@@ -155,6 +162,7 @@ namespace CC_3
                             else
                             {
                                 Console.WriteLine("Номер не вiдповiдає кiлькостi символiв");
+                                Console.WriteLine("Unknown");
                                 return s;
                             }
                             break;
@@ -167,6 +175,7 @@ namespace CC_3
                             else
                             {
                                 Console.WriteLine("Номер не вiдповiдає кiлькостi символiв");
+                                Console.WriteLine("Unknown");
                                 return s;
                             }
                             break;
@@ -180,6 +189,7 @@ namespace CC_3
                             else
                             {
                                 Console.WriteLine("Номер не вiдповiдає кiлькостi символiв");
+                                Console.WriteLine("Unknown");
                                 return s;
                             }
                             break;
@@ -192,6 +202,7 @@ namespace CC_3
                             else
                             {
                                 Console.WriteLine("Номер не вiдповiдає кiлькостi символiв");
+                                Console.WriteLine("Unknown");
                                 return s;
                             }
                             break;
@@ -204,6 +215,7 @@ namespace CC_3
                             else
                             {
                                 Console.WriteLine("Номер не вiдповiдає кiлькостi символiв");
+                                Console.WriteLine("Unknown");
                                 return s;
                             }
                             break;
@@ -216,6 +228,7 @@ namespace CC_3
                             else
                             {
                                 Console.WriteLine("Номер не вiдповiдає кiлькостi символiв");
+                                Console.WriteLine("Unknown");
                                 return s;
                             }
                             break;
@@ -228,6 +241,7 @@ namespace CC_3
                             else
                             {
                                 Console.WriteLine("Номер не вiдповiдає кiлькостi символiв");
+                                Console.WriteLine("Unknown");
                                 return s;
                             }
                             break;
@@ -245,6 +259,7 @@ namespace CC_3
                     else
                     {
                         Console.WriteLine("Номер не вiдповiдає кiлькостi символiв");
+                        Console.WriteLine("Unknown");
                         return s;                        
                     }
                     break;
